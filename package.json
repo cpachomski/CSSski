@@ -8,6 +8,11 @@
   },
   "author": "Chris Pachomski",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
+
+  }
   "devDependencies": {
     "webpack": "^1.12.10"
   }
