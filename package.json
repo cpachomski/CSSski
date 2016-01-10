@@ -4,16 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "start": "webpack-dev-server"
   },
   "author": "Chris Pachomski",
   "license": "MIT",
-  "scripts": {
-    "build": "webpack",
-    "start": "webpack-dev-server",
-
-  }
   "devDependencies": {
-    "webpack": "^1.12.10"
+    "webpack": "^1.12.10",
+    "webpack-dev-server": "^1.14.0"
   }
 }
