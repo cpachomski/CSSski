@@ -1,6 +1,9 @@
 module.exports = {
   entry: {
-    helloWorld: './src/js/helloworld'
+    helloWorld:[
+      'webpack-dev-server/client?http://localhost:8080',
+      './src/js/helloworld'
+    ]
   },
   output: {
     filename: 'public/[name].js'
