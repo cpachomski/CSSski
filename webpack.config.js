@@ -7,5 +7,14 @@ module.exports = {
   },
   output: {
     filename: 'public/[name].js'
+  },
+  module:{
+    loaders: [
+      {
+        test: /\.js$/,
+        loader: 'jsx',
+        exclude: '/node_modules/'
+      }
+    ]
   }
 };
