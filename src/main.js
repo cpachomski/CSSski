@@ -9,6 +9,7 @@ import './styles/animation-containers.styl'
 
 
 import './styles/animations/double-circle-revolve.styl'
+import './styles/animations/double-circle-revolve-in.styl'
 import './styles/animations/double-circle-bump.styl'
 import './styles/animations/splitting-lines.styl'
 
