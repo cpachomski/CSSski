@@ -1,0 +1,305 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Chris/.nvm/versions/io.js/v3.3.1/bin/iojs',
+1 verbose cli   '/Users/Chris/.nvm/versions/io.js/v3.3.1/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.14.3
+3 info using node@v3.3.1
+4 verbose readDependencies loading dependencies from /Users/Chris/Desktop/Lines/package.json
+5 verbose install where, deps [ '/Users/Chris/Desktop/Lines',
+5 verbose install   [ 'ampersand-app',
+5 verbose install     'ampersand-model',
+5 verbose install     'ampersand-react-mixin',
+5 verbose install     'ampersand-rest-collection',
+5 verbose install     'ampersand-router',
+5 verbose install     'autoprefixer',
+5 verbose install     'autoprefixer-core',
+5 verbose install     'autoprefixer-stylus',
+5 verbose install     'babel',
+5 verbose install     'babel-core',
+5 verbose install     'babel-loader',
+5 verbose install     'css-loader',
+5 verbose install     'file-loader',
+5 verbose install     'hjs-webpack',
+5 verbose install     'json-loader',
+5 verbose install     'local-links',
+5 verbose install     'lodash.assign',
+5 verbose install     'lodash.has',
+5 verbose install     'lodash.merge',
+5 verbose install     'lodash.pick',
+5 verbose install     'lodash.result',
+5 verbose install     'milliseconds',
+5 verbose install     'node-libs-browser',
+5 verbose install     'octicons',
+5 verbose install     'postcss-loader',
+5 verbose install     'qs',
+5 verbose install     'react',
+5 verbose install     'react-hot-loader',
+5 verbose install     'slugger',
+5 verbose install     'standard',
+5 verbose install     'style-loader',
+5 verbose install     'stylus-loader',
+5 verbose install     'surge',
+5 verbose install     'url-loader',
+5 verbose install     'webpack',
+5 verbose install     'webpack-dev-server',
+5 verbose install     'xhr',
+5 verbose install     'yeticss',
+5 verbose install     'base-64',
+5 verbose install     'base64-js',
+5 verbose install     'classnames',
+5 verbose install     'marked',
+5 verbose install     'utf8' ] ]
+6 verbose install where, peers [ '/Users/Chris/Desktop/Lines', [] ]
+7 verbose installManyTop reading for lifecycle /Users/Chris/Desktop/Lines/package.json
+8 info preinstall lines@1.0.0
+9 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/ampersand-app/package.json
+10 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/ampersand-model/package.json
+11 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/ampersand-react-mixin/package.json
+12 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/ampersand-rest-collection/package.json
+13 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/ampersand-router/package.json
+14 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/autoprefixer/package.json
+15 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/autoprefixer-core/package.json
+16 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/autoprefixer-stylus/package.json
+17 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/babel/package.json
+18 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/babel-core/package.json
+19 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/babel-loader/package.json
+20 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/base-64/package.json
+21 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/base64-js/package.json
+22 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/classnames/package.json
+23 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/css-loader/package.json
+24 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/file-loader/package.json
+25 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/fs/package.json
+26 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/hjs-webpack/package.json
+27 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/json-loader/package.json
+28 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/local-links/package.json
+29 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/lodash.assign/package.json
+30 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/lodash.has/package.json
+31 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/lodash.merge/package.json
+32 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/lodash.pick/package.json
+33 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/lodash.result/package.json
+34 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/marked/package.json
+35 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/milliseconds/package.json
+36 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/node-libs-browser/package.json
+37 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/octicons/package.json
+38 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/postcss-loader/package.json
+39 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/qs/package.json
+40 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/react/package.json
+41 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/react-canvas/package.json
+42 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/react-hot-loader/package.json
+43 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/slugger/package.json
+44 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/standard/package.json
+45 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/style-loader/package.json
+46 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/stylus-loader/package.json
+47 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/surge/package.json
+48 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/url-loader/package.json
+49 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/utf8/package.json
+50 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/webpack/package.json
+51 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/webpack-dev-server/package.json
+52 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/xhr/package.json
+53 verbose installManyTop reading scoped package data from /Users/Chris/Desktop/Lines/node_modules/yeticss/package.json
+54 info package.json babel-core@5.8.35 No README data
+55 info package.json base-64@0.1.0 No license field.
+56 info package.json fs@0.0.2 fs is also the name of a node core module.
+57 info package.json fs@0.0.2 No description
+58 info package.json fs@0.0.2 No repository field.
+59 info package.json fs@0.0.2 No README data
+60 info package.json octicons@2.4.1 license should be a valid SPDX license expression
+61 info package.json xhr@2.2.0 No license field.
+62 verbose readDependencies loading dependencies from /Users/Chris/Desktop/Lines/package.json
+63 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/ampersand-app/package.json
+64 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/ampersand-model/package.json
+65 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/ampersand-react-mixin/package.json
+66 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/ampersand-rest-collection/package.json
+67 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/ampersand-router/package.json
+68 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/autoprefixer/package.json
+69 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/autoprefixer-core/package.json
+70 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/autoprefixer-stylus/package.json
+71 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/babel/package.json
+72 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/babel-core/package.json
+73 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/babel-loader/package.json
+74 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/base-64/package.json
+75 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/base64-js/package.json
+76 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/classnames/package.json
+77 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/css-loader/package.json
+78 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/file-loader/package.json
+79 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/fs/package.json
+80 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/hjs-webpack/package.json
+81 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/json-loader/package.json
+82 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/local-links/package.json
+83 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/lodash.assign/package.json
+84 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/lodash.has/package.json
+85 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/lodash.merge/package.json
+86 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/lodash.pick/package.json
+87 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/lodash.result/package.json
+88 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/marked/package.json
+89 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/milliseconds/package.json
+90 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/node-libs-browser/package.json
+91 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/octicons/package.json
+92 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/postcss-loader/package.json
+93 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/qs/package.json
+94 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/react/package.json
+95 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/react-canvas/package.json
+96 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/react-hot-loader/package.json
+97 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/slugger/package.json
+98 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/standard/package.json
+99 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/style-loader/package.json
+100 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/stylus-loader/package.json
+101 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/surge/package.json
+102 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/url-loader/package.json
+103 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/utf8/package.json
+104 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/webpack/package.json
+105 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/webpack-dev-server/package.json
+106 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/xhr/package.json
+107 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/yeticss/package.json
+108 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/.bin/autoprefixer/package.json
+109 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/.bin/babel/package.json
+110 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/.bin/babel-external-helpers/package.json
+111 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/.bin/babel-node/package.json
+112 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/.bin/babel-plugin/package.json
+113 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/.bin/marked/package.json
+114 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/.bin/standard/package.json
+115 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/.bin/surge/package.json
+116 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/.bin/webpack/package.json
+117 verbose targetResolver reading package data from /Users/Chris/Desktop/Lines/node_modules/.bin/webpack-dev-server/package.json
+118 verbose already installed skipping autoprefixer-core@^5.2.0 /Users/Chris/Desktop/Lines
+119 verbose already installed skipping autoprefixer-stylus@^0.7.0 /Users/Chris/Desktop/Lines
+120 verbose already installed skipping babel@^5.5.8 /Users/Chris/Desktop/Lines
+121 verbose already installed skipping babel-core@^5.5.8 /Users/Chris/Desktop/Lines
+122 verbose already installed skipping babel-loader@^5.1.4 /Users/Chris/Desktop/Lines
+123 verbose already installed skipping css-loader@^0.15.1 /Users/Chris/Desktop/Lines
+124 verbose already installed skipping file-loader@^0.8.4 /Users/Chris/Desktop/Lines
+125 verbose already installed skipping hjs-webpack@^2.6.0 /Users/Chris/Desktop/Lines
+126 verbose already installed skipping json-loader@^0.5.2 /Users/Chris/Desktop/Lines
+127 verbose already installed skipping local-links@^1.4.0 /Users/Chris/Desktop/Lines
+128 verbose already installed skipping lodash.assign@^3.2.0 /Users/Chris/Desktop/Lines
+129 verbose already installed skipping lodash.has@^3.2.1 /Users/Chris/Desktop/Lines
+130 verbose already installed skipping lodash.merge@^3.3.1 /Users/Chris/Desktop/Lines
+131 verbose already installed skipping lodash.pick@^3.1.0 /Users/Chris/Desktop/Lines
+132 verbose already installed skipping lodash.result@^3.1.2 /Users/Chris/Desktop/Lines
+133 verbose already installed skipping milliseconds@^1.0.3 /Users/Chris/Desktop/Lines
+134 verbose already installed skipping node-libs-browser@^0.5.2 /Users/Chris/Desktop/Lines
+135 verbose already installed skipping octicons@^2.2.0 /Users/Chris/Desktop/Lines
+136 verbose already installed skipping postcss-loader@^0.5.0 /Users/Chris/Desktop/Lines
+137 verbose already installed skipping qs@^3.1.0 /Users/Chris/Desktop/Lines
+138 verbose already installed skipping react@* /Users/Chris/Desktop/Lines
+139 verbose already installed skipping react-hot-loader@^1.2.7 /Users/Chris/Desktop/Lines
+140 verbose already installed skipping slugger@^1.0.0 /Users/Chris/Desktop/Lines
+141 verbose already installed skipping standard@^4.3.1 /Users/Chris/Desktop/Lines
+142 verbose already installed skipping style-loader@^0.12.3 /Users/Chris/Desktop/Lines
+143 verbose already installed skipping stylus-loader@^1.2.1 /Users/Chris/Desktop/Lines
+144 verbose already installed skipping surge@^0.14.2 /Users/Chris/Desktop/Lines
+145 verbose already installed skipping url-loader@^0.5.6 /Users/Chris/Desktop/Lines
+146 verbose already installed skipping webpack@^1.9.11 /Users/Chris/Desktop/Lines
+147 verbose already installed skipping webpack-dev-server@^1.9.0 /Users/Chris/Desktop/Lines
+148 verbose already installed skipping xhr@^2.0.2 /Users/Chris/Desktop/Lines
+149 verbose already installed skipping yeticss@^6.0.7 /Users/Chris/Desktop/Lines
+150 verbose already installed skipping base-64@^0.1.0 /Users/Chris/Desktop/Lines
+151 verbose already installed skipping base64-js@^1.0.2 /Users/Chris/Desktop/Lines
+152 verbose already installed skipping classnames@^2.2.3 /Users/Chris/Desktop/Lines
+153 verbose already installed skipping marked@^0.3.5 /Users/Chris/Desktop/Lines
+154 verbose already installed skipping utf8@^2.1.1 /Users/Chris/Desktop/Lines
+155 verbose already installed skipping ampersand-app@^1.0.4 /Users/Chris/Desktop/Lines
+156 verbose already installed skipping ampersand-model@^5.0.3 /Users/Chris/Desktop/Lines
+157 verbose already installed skipping ampersand-react-mixin@^0.1.3 /Users/Chris/Desktop/Lines
+158 verbose already installed skipping ampersand-rest-collection@^4.0.0 /Users/Chris/Desktop/Lines
+159 verbose already installed skipping ampersand-router@^3.0.2 /Users/Chris/Desktop/Lines
+160 verbose already installed skipping autoprefixer@^5.2.0 /Users/Chris/Desktop/Lines
+161 silly install resolved []
+162 info build /Users/Chris/Desktop/Lines
+163 info linkStuff lines@1.0.0
+164 silly linkStuff lines@1.0.0 has /Users/Chris/Desktop as its parent node_modules
+165 verbose linkBins lines@1.0.0
+166 verbose linkMans lines@1.0.0
+167 verbose rebuildBundles lines@1.0.0
+168 verbose rebuildBundles [ '.bin',
+168 verbose rebuildBundles   'ampersand-app',
+168 verbose rebuildBundles   'ampersand-model',
+168 verbose rebuildBundles   'ampersand-react-mixin',
+168 verbose rebuildBundles   'ampersand-rest-collection',
+168 verbose rebuildBundles   'ampersand-router',
+168 verbose rebuildBundles   'autoprefixer',
+168 verbose rebuildBundles   'autoprefixer-core',
+168 verbose rebuildBundles   'autoprefixer-stylus',
+168 verbose rebuildBundles   'babel',
+168 verbose rebuildBundles   'babel-core',
+168 verbose rebuildBundles   'babel-loader',
+168 verbose rebuildBundles   'base-64',
+168 verbose rebuildBundles   'base64-js',
+168 verbose rebuildBundles   'classnames',
+168 verbose rebuildBundles   'css-loader',
+168 verbose rebuildBundles   'file-loader',
+168 verbose rebuildBundles   'fs',
+168 verbose rebuildBundles   'hjs-webpack',
+168 verbose rebuildBundles   'json-loader',
+168 verbose rebuildBundles   'local-links',
+168 verbose rebuildBundles   'lodash.assign',
+168 verbose rebuildBundles   'lodash.has',
+168 verbose rebuildBundles   'lodash.merge',
+168 verbose rebuildBundles   'lodash.pick',
+168 verbose rebuildBundles   'lodash.result',
+168 verbose rebuildBundles   'marked',
+168 verbose rebuildBundles   'milliseconds',
+168 verbose rebuildBundles   'node-libs-browser',
+168 verbose rebuildBundles   'octicons',
+168 verbose rebuildBundles   'postcss-loader',
+168 verbose rebuildBundles   'qs',
+168 verbose rebuildBundles   'react',
+168 verbose rebuildBundles   'react-canvas',
+168 verbose rebuildBundles   'react-hot-loader',
+168 verbose rebuildBundles   'slugger',
+168 verbose rebuildBundles   'standard',
+168 verbose rebuildBundles   'style-loader',
+168 verbose rebuildBundles   'stylus-loader',
+168 verbose rebuildBundles   'surge',
+168 verbose rebuildBundles   'url-loader',
+168 verbose rebuildBundles   'utf8',
+168 verbose rebuildBundles   'webpack',
+168 verbose rebuildBundles   'webpack-dev-server',
+168 verbose rebuildBundles   'xhr',
+168 verbose rebuildBundles   'yeticss' ]
+169 verbose rebuild bundle /Users/Chris/Desktop/Lines/node_modules/fs
+170 info build /Users/Chris/Desktop/Lines/node_modules/fs
+171 info preinstall fs@0.0.2
+172 info linkStuff fs@0.0.2
+173 silly linkStuff fs@0.0.2 has /Users/Chris/Desktop/Lines/node_modules as its parent node_modules
+174 verbose linkBins fs@0.0.2
+175 verbose linkMans fs@0.0.2
+176 verbose rebuildBundles fs@0.0.2
+177 info install fs@0.0.2
+178 info postinstall fs@0.0.2
+179 verbose rebuild bundle /Users/Chris/Desktop/Lines/node_modules/react-canvas
+180 info build /Users/Chris/Desktop/Lines/node_modules/react-canvas
+181 info preinstall react-canvas@1.1.0
+182 info linkStuff react-canvas@1.1.0
+183 silly linkStuff react-canvas@1.1.0 has /Users/Chris/Desktop/Lines/node_modules as its parent node_modules
+184 verbose linkBins react-canvas@1.1.0
+185 verbose linkMans react-canvas@1.1.0
+186 verbose rebuildBundles react-canvas@1.1.0
+187 verbose rebuildBundles [ 'fbjs', 'linebreak', 'object-assign', 'scroller' ]
+188 info install react-canvas@1.1.0
+189 info postinstall react-canvas@1.1.0
+190 info install lines@1.0.0
+191 info postinstall lines@1.0.0
+192 info prepublish lines@1.0.0
+193 verbose validateInstall loading /Users/Chris/Desktop/Lines/package.json for validation
+194 verbose stack Error: The package react@0.13.3 does not satisfy its siblings' peerDependencies requirements!
+194 verbose stack     at /Users/Chris/.nvm/versions/io.js/v3.3.1/lib/node_modules/npm/lib/install.js:125:32
+194 verbose stack     at /Users/Chris/.nvm/versions/io.js/v3.3.1/lib/node_modules/npm/lib/install.js:268:7
+194 verbose stack     at /Users/Chris/.nvm/versions/io.js/v3.3.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+194 verbose stack     at /Users/Chris/.nvm/versions/io.js/v3.3.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+194 verbose stack     at cb (/Users/Chris/.nvm/versions/io.js/v3.3.1/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+194 verbose stack     at /Users/Chris/.nvm/versions/io.js/v3.3.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+194 verbose stack     at cb (/Users/Chris/.nvm/versions/io.js/v3.3.1/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+194 verbose stack     at /Users/Chris/.nvm/versions/io.js/v3.3.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+194 verbose stack     at cb (/Users/Chris/.nvm/versions/io.js/v3.3.1/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+194 verbose stack     at /Users/Chris/.nvm/versions/io.js/v3.3.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+195 verbose cwd /Users/Chris/Desktop/Lines
+196 error Darwin 15.0.0
+197 error argv "/Users/Chris/.nvm/versions/io.js/v3.3.1/bin/iojs" "/Users/Chris/.nvm/versions/io.js/v3.3.1/bin/npm" "install"
+198 error node v3.3.1
+199 error npm  v2.14.3
+200 error code EPEERINVALID
+201 error peerinvalid The package react@0.13.3 does not satisfy its siblings' peerDependencies requirements!
+201 error peerinvalid Peer hjs-webpack@2.14.1 wants react@*
+201 error peerinvalid Peer react-canvas@1.1.0 wants react@^0.14.0
+202 verbose exit [ 1, true ]
