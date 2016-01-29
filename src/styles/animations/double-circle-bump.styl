@@ -6,7 +6,7 @@ sand = #FBFFCD
 
 
 
-.double-circle-revolve
+.double-circle-bump
 	position: relative
 
 	&:before, &:after
@@ -21,24 +21,24 @@ sand = #FBFFCD
 
 	&:before
 		background: black
-		animation: before-circle-revolve 2s ease-in-out infinite
+		animation: before-circle-bump 2s ease-in-out infinite
 	&:after
 		background: sand
-		animation: after-circle-revolve 2s ease-in-out infinite
+		animation: after-circle-bump 2s ease-in-out infinite
 
 
-@keyframes before-circle-revolve {
+@keyframes before-circle-bump {
 	0% { transform: translateX(0%)  }
 	40% {  transform:  rotate(0deg) translateX(-200%) rotate(0deg)}
-	55% { transform: rotate(180deg) translateX(-200%) rotate(180deg)}
+	75% { transform: rotate(180deg) translateX(-200%) rotate(180deg)}
 	100% { transform: translateX(0%)}
 
 }
 
-@keyframes after-circle-revolve {
+@keyframes after-circle-bump {
 	0% { transform: translateX(0%)  }
 	40% {  transform:  rotate(0deg) translateX(200%) rotate(0deg)}
-	55% { transform: rotate(180deg) translateX(200%) rotate(180deg)}
+	50% { transform: rotate(180deg) translateX(200%) rotate(180deg)}
 	100% { transform: translateX(0%)}
 }
 
