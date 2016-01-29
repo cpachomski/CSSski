@@ -14,7 +14,7 @@ export default React.createClass({
       	<Header />
         <div className='content'>
           <Animation animationClass='double-circle-revolve' />
-          <Animation animationClass='hover-lines' />
+          <Animation animationClass='splitting-lines' />
           <Animation animationClass='hover-lines' />
           <Animation animationClass='hover-lines' />
         </div>

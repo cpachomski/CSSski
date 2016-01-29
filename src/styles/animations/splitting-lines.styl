@@ -1,0 +1,53 @@
+blue = #001F36
+seablue = #1C5560
+teal = #79AE92
+sand = #FBFFCD
+
+
+
+.splitting-lines
+	position: relative
+
+	&:before, &:after
+		content: ''
+		position: absolute
+		height: 5px
+		width: 50px
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		border-radius: 25px
+
+	&:before
+		background: black
+		animation: before-splitting-line 2.5s ease-in-out infinite
+
+	&:after
+		background: sand
+		animation: after-splitting-line 2.5s ease-in-out infinite
+
+		
+
+
+
+@keyframes before-splitting-line {
+	0% { transform: translate(0%, 200%)  }
+	25% { transform: translate(100%, 100%) }
+	50% { transform: translate(0%, 200%)  }
+	75% { transform: translate(-100%, 100%) }
+	100% { transform: translate(0%, 200%)  }
+}
+
+@keyframes after-splitting-line {
+	0% { transform: translate(0%, -200%)  }
+	25% { transform: translate(-100%, -100%) }
+	50% { transform: translate(0%, -200%)  }
+	75% { transform: translate(100%, -100%) }
+	100% { transform: translate(0%, -200%)  }
+
+}
+
+
+
+
+
