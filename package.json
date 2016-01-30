@@ -55,7 +55,7 @@
   },
   "scripts": {
     "build": "webpack",
-    "deploy": "surge -p public -d cpp-loading-animations.surge.sh",
+    "deploy": "surge -p public -d cssski.surge.sh",
     "start": "webpack-dev-server",
     "yolo": "npm run build && npm run deploy"
   },

@@ -1,5 +1,5 @@
 #CSSski
-###[Go to sites](http://cpp-loading-animations.surge.sh)
+###[Go to site](http://cssski.surge.sh)
 
 ####Css animations. For me. For you.
 
