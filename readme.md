@@ -1,11 +1,11 @@
-# Lines
-###[Go to app](http://gitdash.surge.sh)
+#CSSski
+###[Go to sites](http://cpp-loading-animations.surge.sh)
 
-####Connecting Colored Lines
+####Css animations. For me. For you.
 
 * ES6
 * React
-* Webpack 
-* Stylus 
+* Webpack
+* Stylus
 
 
