@@ -20,24 +20,24 @@ yorange = #E6AC27
 
 	&:before
 		background: brown
-		animation: before-circle-revolve 2s ease-in-out infinite
+		animation: before-circle-revolve 2s ease infinite
 	&:after
 		background: red
-		animation: after-circle-revolve 2s ease-in-out infinite
+		animation: after-circle-revolve 2s ease infinite
 
 
 @keyframes before-circle-revolve {
 	0% { transform: translateX(0%)  }
-	40% {  transform:  rotate(0deg) translateX(-200%) rotate(0deg)}
-	55% { transform: rotate(180deg) translateX(-200%) rotate(180deg)}
+	30% {  transform:  rotate(0deg) translateX(-150%) rotate(0deg)}
+	60% { transform: rotate(180deg) translateX(-150%) rotate(180deg)}
 	100% { transform: translateX(0%)}
 
 }
 
 @keyframes after-circle-revolve {
 	0% { transform: translateX(0%)  }
-	40% {  transform:  rotate(0deg) translateX(200%) rotate(0deg)}
-	55% { transform: rotate(180deg) translateX(200%) rotate(180deg)}
+	30% {  transform:  rotate(0deg) translateX(150%) rotate(0deg)}
+	60% { transform: rotate(180deg) translateX(150%) rotate(180deg)}
 	100% { transform: translateX(0%)}
 }
 
