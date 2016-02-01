@@ -23,10 +23,12 @@ yorange = #E6AC27
 
 	&:before
 		background: brown
-		animation: before-circle-revolve-in 2s ease-in-out infinite
+		animation: before-circle-revolve-in 2s infinite
+		animation-timing-function: cubic-bezier(.56,.44,.48,.92)
 	&:after
 		background: red
-		animation: after-circle-revolve-in 2s ease-in-out infinite
+		animation: after-circle-revolve-in 2s infinite
+		animation-timing-function: cubic-bezier(.56,.44,.48,.92)
 
 
 @keyframes before-circle-revolve-in {
