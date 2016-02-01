@@ -57,7 +57,7 @@
     "b": "webpack",
     "d": "surge -p public -d cssski.surge.sh",
     "start": "webpack-dev-server",
-    "reincarnate": "npm run build && npm run deploy"
+    "reincarnate": "npm run b && npm run d"
   },
   "devDependencies": {
     "base-64": "^0.1.0",
