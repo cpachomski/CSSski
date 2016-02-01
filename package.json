@@ -54,10 +54,10 @@
     "yeticss": "^6.0.7"
   },
   "scripts": {
-    "build": "webpack",
-    "deploy": "surge -p public -d cssski.surge.sh",
+    "b": "webpack",
+    "d": "surge -p public -d cssski.surge.sh",
     "start": "webpack-dev-server",
-    "yolo": "npm run build && npm run deploy"
+    "reincarnate": "npm run build && npm run deploy"
   },
   "devDependencies": {
     "base-64": "^0.1.0",
